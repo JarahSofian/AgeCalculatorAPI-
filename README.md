@@ -1,2 +1,22 @@
-# AgeCalculatorAPI-
-A RESTful ASP.NET Web API that calculates the accurate age based on a given date of birth and returns the result in years, months, and days.
+# Age Calculator API
+
+## Description
+Calculate age in years, months, days
+
+## Tech
+- ASP.NET Core Web API (.NET 8)
+- MySQL
+- Swagger
+- JWT Authentication
+
+## Run
+```
+dotnet restore
+dotnet ef database update
+dotnet run
+```
+
+Swagger:
+```
+https://localhost:5001/swagger
+```
